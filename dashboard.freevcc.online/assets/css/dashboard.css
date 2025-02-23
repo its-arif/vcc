@@ -1,0 +1,275 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(249, 249, 249);
+}
+
+h4 {
+    font-size: 30px;
+}
+
+.card {
+    box-shadow: 5px 5px 10px 0 rgb(0 0 0 / 10%);
+    background-color: white;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    overflow: auto;
+}
+
+.card-header {
+    background: transparent;
+}
+
+.table tbody tr td,
+table thead tr td {
+    padding: 2%;
+}
+
+.table tbody tr td {
+    vertical-align: middle;
+    border-color: #f0f1f5;
+}
+
+table td {
+    border-color: #f0f1f5;
+    padding: 12px 9px;
+}
+
+strong {
+    color: #B1B1B1;
+}
+
+.sidebar ul li {
+    list-style-type: none;
+    margin: 3% 5%;
+    margin-top: 16%;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #7e7e7e;
+    ;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sidebar ul li a span {
+    font-size: 18px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+    background: linear-gradient(80deg, #ba001a 0%, #e71e1e 100%);
+    text-align: center;
+    color: white;
+    line-height: 45px;
+}
+
+.btn-visa button {
+    margin: 5% 2% !important;
+    padding: 7% 12% !important;
+    /*background: linear-gradient(90deg, #f20f10 0%, #ec600d 100%);*/
+    background: linear-gradient(80deg, #ba001a 0%, #e71e1e 100%);
+    color: white;
+    text-align: center;
+}
+
+.btn-visa span {
+    margin-right: 4%;
+}
+
+.btn-fund {
+    color: white;
+    padding: 8% 2%;
+    background: linear-gradient(90deg, #f20f10 0%, #ec600d 100%);
+}
+
+.nav-item i {
+    text-align: center;
+    font-size: 20px;
+    color: #ec600d;
+}
+
+.nav-link img {
+    border: 1px solid black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.card-balance {
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 3%;
+}
+
+.nav-item {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-info {
+    box-shadow: 5px 4px 5px 0 rgb(0 0 0 / 10%);
+    background-color: white;
+    padding: 5%;
+}
+
+.sidebar {
+    box-shadow: 5px 5px 10px 0 rgb(0 0 0 / 10%);
+    background-color: white;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    overflow: visible;
+}
+
+.card-nav {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    overflow: visible;
+    background-color: white;
+}
+
+.hamburger {
+    display: inline-block;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    width: 26px;
+    z-index: 999;
+}
+
+.hamburger .line:nth-child(2) {
+    width: 26px;
+}
+
+.hamburger .line {
+    background: #e71e1e;
+    display: block;
+    height: 3px;
+    border-radius: 3px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+#sidebar {
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    min-height: 87.5vh;
+}
+
+/*visa card*/
+
+.container-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/card.png');
+    background-size: cover;
+    z-index: 9999;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+/* Card */
+
+.card-visa {
+    border: 0px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    width: 98%;
+}
+
+.visa_logo img {
+    width: 70px;
+    height: 40px;
+}
+
+.visa_info {
+    padding: 14px;
+    margin: 10px 0;
+}
+
+.visa_info img {
+    width: 75px;
+    height: 45px;
+}
+
+.visa_info p {
+    font-size: 24px;
+    padding: 10px 0;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.visa_crinfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    color: #ffffff;
+}
+
+.imgprofile {
+    border: 1px solid black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#changeCardBtn a:hover {
+    color: #f20f10 !important;
+}
+
+/*#changeCardBtn
+{
+    width: 95% !important;
+}*/
+
+.g-card {
+    background-color: #e71e1e !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .content_body {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
